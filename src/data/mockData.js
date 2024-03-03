@@ -319,15 +319,13 @@ export const mockTransactions = [
 
 export const mockBarData = [
   {
-    country: "AD",
-    "hot dog": 137,
-    "hot dogColor": "hsl(229, 70%, 50%)",
+    country: "bahaa",
+    "hot dog": 60,
+    "hot dogColor": "hsl(100, 50%, 50%)",
     burger: 96,
     burgerColor: "hsl(296, 70%, 50%)",
-    kebab: 72,
-    kebabColor: "hsl(97, 70%, 50%)",
-    donut: 140,
-    donutColor: "hsl(340, 70%, 50%)",
+    fries: 150,
+    friesColor: "hsl(296, 70%, 50%)",
   },
   {
     country: "AE",
@@ -400,8 +398,8 @@ export const mockBarData = [
 export const mockPieData = [
   {
     id: "hack",
-    label: "hack",
-    value: 239,
+    label: "bahaa",
+    value: 100,
     color: "hsl(104, 70%, 50%)",
   },
   {
@@ -411,9 +409,9 @@ export const mockPieData = [
     color: "hsl(162, 70%, 50%)",
   },
   {
-    id: "go",
-    label: "go",
-    value: 322,
+    id: "bahaa2",
+    label: "bahaa2",
+    value: 100,
     color: "hsl(291, 70%, 50%)",
   },
   {
@@ -433,15 +431,15 @@ export const mockPieData = [
 export const mockLineData = [
   {
     id: "japan",
-    color: tokens("dark").greenAccent[500],
+    color: tokens("dark").greenAccent[200],
     data: [
       {
         x: "plane",
-        y: 101,
+        y: 50,
       },
       {
         x: "helicopter",
-        y: 75,
+        y: 30,
       },
       {
         x: "boat",
